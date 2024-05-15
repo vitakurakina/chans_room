@@ -3,7 +3,10 @@ body {
   font-size: 48;
   margin: 0;
   background-color: white;
-
+  text-align: center;
+  display: block;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 
@@ -47,8 +50,8 @@ ul {
 }
 
 li {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 li a:link,
@@ -56,6 +59,7 @@ li a:visited {
   width: 170px;
   color: white;
   background-color: #000000;
+  border-radius: 10px;
   padding: 1px 24px;
   text-align: center;
   text-decoration: none;
