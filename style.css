@@ -9,18 +9,24 @@ body {
   /* align-items: center; */
 }
 
-
-
 .first {
   background-image: url("img/background.jpg");
   justify-content: center;
-  align-items: center;
+  align-items: end;
   height: 1000vh;
   background-origin: border-box;
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
+}
+
+.rectangle {
+  align-items: end;
+  padding: 10px 10px;
+  position: static;
+  background-color: rgba(231, 154, 237, 0.75);
+  border-radius: 15px;
 }
 
 h2 {
@@ -32,13 +38,7 @@ h2 {
     "wdth" 100;
 }
 
-.rectangle {
-  padding: 10px 10px;
-  position: fixed;
-  background-color: rgba(231, 154, 237, 0.75);
-  border-radius: 15px;
 
-}
 
 
 ul {
