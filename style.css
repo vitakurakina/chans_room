@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 48;
+  margin: 0;
+  background-color: white;
+
+}
+
+
+
+.first {
+  background-image: url("img/background.jpg");
+  justify-content: center;
+  align-items: center;
+  height: 1000vh;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.rectangle {
+  padding: 10px 10px;
+  position: fixed;
+  background-color: rgba(231, 154, 237, 0.75);
+  border-radius: 15px;
+
+}
+
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+li a:link,
+li a:visited {
+  width: 170px;
+  color: white;
+  background-color: #000000;
+  padding: 1px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+}
