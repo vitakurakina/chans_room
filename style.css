@@ -1,12 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 48;
+  /* font-size: 48; */
   margin: 0;
   background-color: white;
   text-align: center;
   display: block;
-  /* justify-content: center; */
-  /* align-items: center; */
+
 }
 
 .topBackground {
@@ -18,29 +17,35 @@ body {
   background-position: center;
   display: flex;
   align-items: flex-end;
+  min-width: 320px;
+  max-width: 1920px;
 }
 
 .rectangleOnBackground {
   background-color: rgba(231, 154, 237, 0.75);
-  width: 622px;
-  height: 369px;
-  top: 631px;
-  left: 649px;
+  min-width: 320px;
+  min-height: 207px;
+  width:30%;
+  height: 38%;
+  /* top: 631px;
+  left: 649px; */
   gap: 0px;
   border-radius: 25px;
-  opacity: 0px;  
   bottom: 0;
 }
 
 .rectangleOnBackground h2{
   font-family: "Noto Sans";
-  font-size: 48px;
   font-weight: 900;
+  /* font-size: calc( (100vw - 320px)/(1920 - 320) * (200 - 160) + 160%); */
+  font-size: 200%;
+  height: 38%;
+  margin: 0 15px 3% 15px
 }
 
 .rectangleOnBackground h3{
   font-family: "Roboto";
-  font-size: 24px;
+  font-size: 100%;
   font-weight: 700;
 }
 
@@ -48,7 +53,7 @@ body {
   text-align: center;
   list-style-position: inside;
   list-style-type: none;
-  margin: 0;
+  margin:13% 0;
   padding: 0;
   display: inline-block;
 }
@@ -65,7 +70,7 @@ body {
   text-decoration: none;
   display: inline-block;
   border-radius: 15px;
-  padding: 0px 50px;
+  padding: 3px 40px;
   border-radius: 15px;
 }
 
@@ -73,4 +78,20 @@ body {
 .rectangleOnBackground li a:active {
   padding: 10px 75px;
   transition: 0.5s;
+}
+
+h1{
+  font-family: "Noto Sans";
+  font-weight: 900;
+  font-size: 250%;
+  text-align: left;
+  margin:70px 0px 0px 20%
+}
+p{
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 120%;
+  color: #936297;
+  text-align: left;
+  margin:4px 33% 100px 20%
 }
