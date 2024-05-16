@@ -78,6 +78,7 @@ body {
 .rectangleOnBackground li a:active {
   padding: 10px 75px;
   transition: 0.5s;
+  /* i wanna change it to make it glow or smth*/
 }
 
 h1{
@@ -85,7 +86,8 @@ h1{
   font-weight: 900;
   font-size: 250%;
   text-align: left;
-  margin:70px 0px 0px 20%
+  padding:0% 20%
+  /* margin:70px 12px 0px 20% */
 }
 p{
   font-family: "Roboto";
@@ -93,5 +95,6 @@ p{
   font-size: 120%;
   color: #936297;
   text-align: left;
-  margin:4px 33% 100px 20%
+  margin: 0px 20%;
+  /* margin:4px 33% 100px 20% */
 }
