@@ -11,7 +11,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* margin:0 0 20px 0; */
 }
 
 .gay {
@@ -41,7 +40,6 @@ header ul li .icons {
 }
 
 .topBackground {
-  /* background-image: url("img/background.jpg"); */
   justify-content: center;
   height: 90vh;
   background-repeat: no-repeat;
