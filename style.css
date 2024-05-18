@@ -1,16 +1,46 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  background-color: white;
   text-align: center;
-  display: block;
-
+  background-color: white;
+  background-image: url("img/background.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:100;
 }
 
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo{
+  width: 100px;
+}
+
+header ul{
+  list-style: none;
+  text-align: right;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+header ul li .icons{
+  width: 30px;
+  aspect-ratio: 1/1;
+}
+
+
 .topBackground {
-  background-image: url("img/background.jpg");
+  /* background-image: url("img/background.jpg"); */
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
