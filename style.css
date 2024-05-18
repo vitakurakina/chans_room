@@ -20,6 +20,7 @@ header {
   background-size: cover;
   background-position: center;
 }
+
 .logo {
   width: 100px;
 }
@@ -60,7 +61,6 @@ header ul li .icons {
   gap: 0px;
   border-radius: 25px;
   bottom: 0;
-
 }
 
 .rectangleOnBackground h2 {
@@ -118,6 +118,7 @@ h1 {
   text-align: left;
   padding: 0% 20%;
 }
+
 p {
   font-family: "Roboto";
   font-weight: bold;
@@ -132,9 +133,11 @@ p {
     width: 320px;
     aspect-ratio: 5/3;
   }
+
   .rectangleOnBackground h2 {
     font-size: 160%;
   }
+
   .rectangleOnBackground h3 {
     font-size: 90%;
   }
