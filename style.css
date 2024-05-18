@@ -3,6 +3,7 @@ body {
   margin: 0;
   text-align: center;
   background-color: white;
+  min-height: 100vh;
 }
 
 header {
@@ -10,6 +11,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* margin:0 0 20px 0; */
 }
 
 .gay {
@@ -47,6 +49,7 @@ header ul li .icons {
   display: flex;
   align-items: flex-end;
   min-width: 320px;
+  min-height: 200px;
 }
 
 .rectangleOnBackground {
@@ -57,6 +60,7 @@ header ul li .icons {
   gap: 0px;
   border-radius: 25px;
   bottom: 0;
+
 }
 
 .rectangleOnBackground h2 {
