@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  /* font-size: 48; */
   margin: 0;
   background-color: white;
   text-align: center;
@@ -18,17 +17,13 @@ body {
   display: flex;
   align-items: flex-end;
   min-width: 320px;
-  max-width: 1920px;
 }
 
 .rectangleOnBackground {
   background-color: rgba(231, 154, 237, 0.75);
   min-width: 320px;
-  min-height: 207px;
   width:30%;
-  height: 38%;
-  /* top: 631px;
-  left: 649px; */
+  aspect-ratio: 5/3;
   gap: 0px;
   border-radius: 25px;
   bottom: 0;
@@ -37,23 +32,24 @@ body {
 .rectangleOnBackground h2{
   font-family: "Noto Sans";
   font-weight: 900;
-  /* font-size: calc( (100vw - 320px)/(1920 - 320) * (200 - 160) + 160%); */
-  font-size: 200%;
+  font-size: calc( (100vw - 1024px)/(1920 - 1024) * (180 - 160) + 160%);
   height: 38%;
-  margin: 0 15px 3% 15px
+  margin: 0 15px 1.5% 15px
 }
 
 .rectangleOnBackground h3{
   font-family: "Roboto";
-  font-size: 100%;
+  font-size: calc( (100vw - 1024px)/(1920 - 1024) * (100 - 90) + 90%);
+  /* font-size: 100%; */
   font-weight: 700;
 }
 
 .rectangleOnBackground ul {
+  aspect-ratio: 2/1;
   text-align: center;
   list-style-position: inside;
   list-style-type: none;
-  margin:13% 0;
+  margin:11% 0 0 0;
   padding: 0;
   display: inline-block;
 }
@@ -87,7 +83,6 @@ h1{
   font-size: 250%;
   text-align: left;
   padding:0% 20%
-  /* margin:70px 12px 0px 20% */
 }
 p{
   font-family: "Roboto";
@@ -96,5 +91,17 @@ p{
   color: #936297;
   text-align: left;
   margin: 0px 20%;
-  /* margin:4px 33% 100px 20% */
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .rectangleOnBackground{
+    width: 320px;
+    aspect-ratio: 5/3;
+  }
+  .rectangleOnBackground h2{
+    font-size: 160%;
+  }
+  .rectangleOnBackground h3{
+    font-size: 90%;
+  }
 }
