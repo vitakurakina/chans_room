@@ -6,13 +6,6 @@ body {
   min-height: 100vh;
 }
 
-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .gay {
   background-image: url("img/background.jpg");
   background-repeat: no-repeat;
@@ -20,24 +13,36 @@ header {
   background-position: center;
 }
 
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .logo {
   margin-top: 35px;
-  width: 100px;
+  width: 10vw;
+  min-width: 170px;
 }
 
 header ul {
   margin-top: 35px;
   list-style: none;
   text-align: right;
+  padding: 0;
+  display: flex;
+  gap: calc(2vw + 10px);
 }
 
 header ul li {
   display: inline-block;
-  margin: 0px 10px;
 }
 
 header ul li .icons {
-  width: 30px;
+  width: 2vw;
+  min-width: 30px;
   aspect-ratio: 1/1;
 }
 
