@@ -25,10 +25,14 @@ header {
   margin-top: 35px;
   width: 10vw;
   min-width: 170px;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
 
 header ul {
   margin-top: 35px;
+  margin-left: 6vw;
+  margin-right: 6vw;
   list-style: none;
   text-align: right;
   padding: 0;
@@ -145,5 +149,11 @@ p {
 
   .rectangleOnBackground h3 {
     font-size: 90%;
+  }
+}
+
+@media (max-width: 529px){
+  header ul {
+    margin-top: 10px;
   }
 }
