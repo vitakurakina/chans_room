@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -114,7 +115,6 @@ header ul li .icons {
   transition: 0.5s;
   /* i wanna change it to make it glow or smth*/
 }
-
 h1 {
   font-family: "Noto Sans";
   font-weight: 900;
@@ -129,7 +129,42 @@ p {
   font-size: 120%;
   color: #936297;
   text-align: left;
-  margin: 0px 20%;
+  padding: 0% 20%;
+}
+
+.mediaWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 20%;
+}
+
+.media {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.topLeft img,
+.bottomLeft img,
+.right video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.topLeft {
+  grid-row: 1;
+}
+
+.bottomLeft {
+  grid-row: 2;
+}
+
+.right {
+  grid-row: span 2;
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
@@ -144,5 +179,14 @@ p {
 
   .rectangleOnBackground h3 {
     font-size: 90%;
+  }
+
+  .media {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .right {
+    grid-row: 3;
   }
 }
